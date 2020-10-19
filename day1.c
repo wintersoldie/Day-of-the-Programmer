@@ -17,3 +17,12 @@ int main()
         }
     }
     max=0;
+   for(i=1;i<5;i++)
+    {
+        if(r[max]<r[i])
+        {
+            max=i;
+        }
+    }
+    printf("%d",max+1);       
+}
